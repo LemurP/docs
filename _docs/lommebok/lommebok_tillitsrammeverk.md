@@ -46,7 +46,7 @@ TLRP --> RPR
 
 Det er verd å merke seg at sjølve brukarstadene (relying parties) ikkje havnar på den sentrale tillitslista, men at det istaden er ein to-nivå struktur: den sentrale tillitslista peikar berre på PKIer forvalta av godkjente **tilgangssertifikat-utstedere**. Det kan gjerne vere fleire slike sertifikat-utstedere i eit land. Eit brukarstad må ta kontakt med ein **Registrar** for å skaffe eit brukerstad-sertifikat (også kjent som "tilgangssertifikat": Relying Party Access Certificate). Normalt vil Registrar og sertifikat-utsteder vere same organisasjon. 
 
-I sandkassen vil Digdir tilby ein Regigstrar-funksjon med tilhøyrande brukarstadsertifikat-utstedar.  Det er opent for at fleire aktørar også kan vere Registrar i sandkassen.
+I sandkassen vil Digdir tilby ein Registrar-funksjon med tilhøyrande brukarstadsertifikat-utstedar.  Det er opent for at fleire aktørar også kan vere Registrar i sandkassen.
 
 
 
@@ -84,6 +84,7 @@ Dersom ei tillitsteneste med tilhøyrande signeringsertifikat ikkje er lagt inn 
 Ta kontakt med Digdir for å få eit brukarstad-sertifikat.  
 
 Bruk gjerne innsynstjenesten for å studere kven so er aktørar i sandkassen.
+
 
 
 
