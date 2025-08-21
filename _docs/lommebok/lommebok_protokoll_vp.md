@@ -11,9 +11,9 @@ På denne sida forsøker me å forklara flyten du må følgje som brukastad når
 
 Protokollen som vert nytta heiter [OpenID for Verifiable Presentations (OpenID4VP)](https://openid.net/specs/openid-4-verifiable-presentations-1_0-final.html).  (https://openid.github.io/OpenID4VP/openid-4-verifiable-presentations-wg-draft.html).
 
-Før du kan starte flyten må du har utført dette:
+Før du kan starte flyten må du ha utført dette:
 
-- Brukerstaden (relying party) må først registrere seg hjå ein Registrar 
+- Brukerstaden (relying party) må registrere seg hjå ein Registrar 
  
 Sjølve flyten er enkel, og består av fylgjande steg:
 
@@ -50,7 +50,7 @@ For sandkassen registrerer du deg førebels ved å sende epost til Digdir (servi
 
 Du må sjølv lage privatnøkkel til desse sertifikata før du gjennomfører registreringa, og basert på denne lage ei [CSR-fil](https://en.wikipedia.org/wiki/Certificate_signing_request) som du inkluderer med søknaden.
 
-Merk at lommebok-økosystemet føretrekk EC-baserte nøkler (ikkje RSA) og at CSRen p.t. må angje ein SAN-extension som skal matche client_id.  Denne skal fortrinnsvis skal peike på det domenet som du køyrer applikasjonen/brukerstaden din på, men det er lov å bruke t.d. localhost under utvikling.
+Merk at lommebok-økosystemet føretrekk EC-baserte nøkler (ikkje RSA) og at CSRen p.t. må angje ein SAN-extension som skal matche client_id.  Denne skal fortrinnsvis peike på det domenet som du køyrer applikasjonen/brukerstaden din på, men det er lov å bruke t.d. localhost under utvikling.
 
 **Døme på å lage CSR med keytool:**
 ```
@@ -292,6 +292,7 @@ Du må validere at vp_tokenet er korrekt.  Aktuelle valideringspunkt:
 
 
 Sjå også [kap 8.6 i VP-specen](https://openid.github.io/OpenID4VP/openid-4-verifiable-presentations-wg-draft.html#name-vp-token-validation) for valideringskrav.
+
 
 
 
